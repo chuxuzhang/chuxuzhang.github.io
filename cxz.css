@@ -47,7 +47,7 @@ a, a > tt {
 }
 
 a:hover {
-	border-bottom: 1px gray dotted;
+	border-bottom: 0px gray dotted;
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
@@ -78,7 +78,7 @@ div.menu-item {
 div#toptitle {
 	padding-bottom: .5em;
 	margin-bottom: 1.3em;
-    border-bottom: 3px double gray;
+    border-bottom: 0px double gray;
 }
 
 /* Reduce space if we begin the page with a title. */
