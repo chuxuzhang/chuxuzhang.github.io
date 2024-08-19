@@ -1,0 +1,191 @@
+body {
+	background: white;
+	font-family: Optima, Tahoma, Palatino, serif;
+	padding: 0;
+	padding-bottom: 8px;
+	font-size: .96em;
+	margin: 0;
+}
+
+ 
+#layout-menu {
+	background: #FFFFFF;
+	border: none;
+	border-right: 0px double gray;
+	border-bottom: none;
+	margin: 0;
+	padding-top: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 1.0em;
+	width: auto;
+	white-space: nowrap;
+
+}
+
+#layout-menu a {
+	line-height: 1.5em;
+	margin-left: 0.5em;
+}
+
+tt {
+	color: black;
+}
+
+tt.tthl {
+	color: black;
+}
+
+pre, tt {
+	font-size: 90%;
+	font-family: monaco, monospace;
+}
+
+a, a > tt {
+	color: #224b8d;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 0px gray dotted;
+}
+
+#layout-menu a.current:link, #layout-menu a.current:visited {
+	color: black;
+/*	border-bottom: 1px gray solid;*/
+}
+
+#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+div.menu-category {
+	border-bottom: 0px solid gray;
+	margin-top: 0.8em;
+	padding-top: 0.2em;
+	padding-bottom: 0.1em;
+	font-weight: bold;
+}
+
+div.menu-item {
+	padding-left: 15px;
+	padding-right: 8px;
+	text-indent: -16px;
+	text-align: right;
+}
+
+div#toptitle {
+	padding-bottom: .5em;
+	margin-bottom: 1.3em;
+    border-bottom: 0px double gray;
+}
+
+/* Reduce space if we begin the page with a title. */
+div#toptitle + h2, div#toptitle + h3 {
+	margin-top: -0.7em;
+}
+
+div#subtitle {
+	margin-top: 0.0em;
+	margin-bottom: 0.0em;
+	padding-top: 0em;
+	padding-bottom: 0.1em;
+}
+
+/*#pub_title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	color: #254D7A;
+	font-weight: bold;
+}*/
+
+#layout-content {
+	border: none;
+	padding-top: 10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 0;
+	margin: 0;
+}
+
+*
+{
+	margin: 0 0;
+	text-align:left;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+p
+{
+	line-height:25px;
+	margin-bottom:10px;
+         width: 900px; 
+}
+
+li
+{
+	margin-bottom:10px;
+}
+
+h1
+{
+font-size:40px;
+font-weight:bold;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+h2
+{
+font-size:30px;
+font-weight:bold;
+padding-top:20px;
+padding-bottom:10px;
+}
+
+h3
+{
+font-size:20px;
+font-weight:bold;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+h4
+{
+font-size:15px;
+font-weight:bold;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+

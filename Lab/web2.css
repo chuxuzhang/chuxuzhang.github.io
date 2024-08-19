@@ -1,0 +1,406 @@
+.parent .popup {
+  display: none;
+}
+
+.parent:hover .popup {
+  display: block;
+}
+
+body
+{
+/*  color: black;
+  background-color: white; */
+/*	font: 10px "times new roman";  */
+/*font-family: 'Lato', 'san-serif';*/
+/*font-family: 'Open+Sans', 'san-serif';*/
+/* font: Arial, sans-serif;*/
+font: 10px Arial, sans-serif;
+/*	font: 8px "Lucida Grande"; */
+/*font: 18px sans-serif; 
+font-family: Verdana;*/
+font-size: 1.0em; 
+/*
+line-height: 1.0em;
+letter-spacing: 0;
+text-align: left;
+word-spacing: normal;
+text-decoration: none;
+color: #444;
+background-color: #fff;
+*/
+
+background-color: #dddddd;
+-webkit-text-size-adjust: none;
+text-size-adjust: none;
+}
+
+table.white
+{
+background-color: #ffffff;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:50px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+/*	font: 20px "BentonSansRegular";*/
+     font: 22px Arial, sans-serif;
+     font-weight: bold;
+/*)  font-family: sans-serif;*/
+}
+
+
+h6
+{
+/*	font: 20px "BentonSansRegular";*/
+        font: 20px Arial, sans-serif;
+font-weight: bold;
+margin-bottom: 6pt;
+
+/*)  font-family: sans-serif;*/
+}
+
+
+h5
+{
+/*	font: 13px "BentonSansRegular";*/
+    font: 13px Arial, sans-serif;
+margin-top: 0.5em;
+margin-bottom: -0.4em;
+font-weight: bold;
+/*)  font-family: sans-serif;*/
+}
+
+/* This needs a patched html file else you have it all over the place */
+/* we only want this for the "visual header" at the page top */
+h1
+{
+  text-align: center;
+  background-color: #CCCC00;
+}
+
+/* Number the h2/h3 -- doesn't work on v4/5 browsers */
+h2
+{
+/*	font: 14px "BentonSansRegular";*/
+        font: 14px Arial, sans-serif;
+}
+
+/*
+h3
+{
+   counter-increment: h3-count;
+}
+
+h3:before
+{
+   content: counter(h2-count) "." counter(h3-count) " ";
+   
+}
+ */ 
+h4
+{ 
+/*	font: 14px "BentonSansRegular";*/
+     font: 14px Arial, sans-serif;
+  font-weight: bold;
+}
+
+tt
+{
+  color: rgb(40%,24%,24%);
+}
+
+a > tt, a > b > tt
+{
+  color: blue;
+}
+
+a:link
+{
+  color: blue;
+ text-decoration: none;
+}
+
+a.offsite
+{
+  font-style: oblique;
+}
+
+a:visited
+{
+  color: blue;
+ text-decoration: none;
+}
+
+a:hover, a:active, a:focus
+{
+ text-decoration: underline;
+}
+
+td
+{
+  vertical-align: top;
+/*  font: 14px "BentonSansRegular";*/
+       font: 14px Arial, sans-serif;
+}
+
+ul {
+   list-style: none;
+margin-left: 0;
+	     padding-left: 1em;
+	     text-indent: -1em;
+padding-top:1em;
+margin:0;
+}
+
+ul.mylist {
+   list-style: none;
+margin-left: 0;
+	     padding-left: 1em;
+	     text-indent: 0em;
+padding-top:0;
+margin:0;
+}
+
+ul.publist {
+   list-style: none;
+margin-left: 0;
+	     padding-left: 1em;
+	     text-indent: 0em;
+padding-top:1em;
+margin:0;
+padding-bottom:0em;
+}
+
+ul.publist li { padding-bottom:0.8em; }
+
+ul.tightlist {
+   list-style: none;
+margin-left: 0;
+	     padding-left: 1em;
+	     text-indent: 0em;
+padding-top:0.5em;
+margin:0;
+padding-bottom:0.5em;
+}
+
+ul.tightlist li { padding-bottom:0em; }
+
+ul li:before{ content:"\2013"; position:relative; left:-5px;}
+ul li{ text-indent:-8px; 
+padding-top:0px; 
+margin:0; 
+}
+
+
+div {
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+            transition: all .25s ease;
+}
+
+
+
+#testbox {
+    overflow: hidden;
+    max-height: 13em;
+    width: 850px;
+    margin-right:25px;
+    /* ignoring other CSS */
+}
+
+#testbox.removeThis {
+    max-height: 1000px;
+    width: 850px;
+    overflow: hidden;
+    margin-right:25px;
+}
+
+div.myblock {
+    width: 850px;
+    overflow: hidden;
+    margin-right:25px;
+/*    padding-right:50px; */
+}
+
+div.left {
+    text-align: left;
+}
+
+div.mybiggerblock {
+    width: 950px;
+    overflow: hidden;
+    margin-left:0px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    padding-top:20px;
+    margin-bottom:0px;
+    margin-top:25px;
+    background-color:#ffffff;
+/*    font: 14px "BentonSansRegular"; */
+         font: 14px Arial, sans-serif;
+}
+
+div.blockhead {
+    float: left;
+    width: 100px;
+/*    font: 14px "BentonSansRegular";*/
+         font: 14px Arial, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    margin-left:0;
+    padding-left:0;
+}
+
+div.blockcontent {
+    margin-left: 120px;
+/*    font-family: "BentonSansRegular";*/
+         font: 14px Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 150%;
+    text-align: left;
+    }
+
+div.footer {
+    width: 1050px;
+    overflow: hidden;
+    margin-left:0px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-top:0px;
+    margin-bottom:40px;
+    margin-top:0px;
+    text-align:center;
+/*    font: 12px "BentonSansRegular"; */
+         font: 12px Arial, sans-serif;
+}
+
+
+div.headleft {
+    float: left;
+    width: 400px;
+/*    font: 14px "BentonSansRegular";*/
+         font: 14px Arial, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left:0;
+    padding-left:0;
+    padding-bottom:10px;
+    padding-top: 0px;
+}
+
+div.headright {
+    margin-left: 120px;
+/*    font: 14px "BentonSansRegular"; */
+         font: 14px Arial, sans-serif;
+    text-align: right;
+    }
+
+span.newsdate {
+    float: left;
+    width: 8em;
+    height: 18pt;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+div.newsitem {
+display: inline-block;
+}
+div.newstext {
+    padding-left:10em;
+}
+
+/* span.newsdate:before{ content:"\2013\00a0\00a0";} */
+
+td.newsdate:before{ content:"\2013\00a0\00a0";}
+span.newsdate:before{ content:"\2013\00a0\00a0";}
+
+td.newsdate {
+white-space: nowrap
+/* width: 99%; */
+}
+
+table {
+border-collapse: separate;
+border-spacing: 0 0em;
+}
+
+
+.columns-container {
+            display: flex;
+            justify-content: space-between; /* Space out the columns */
+        }
+        .column {
+            display: flex;
+            align-items: flex-start; /* Aligns the top of the image and text */
+            width: 48%; /* Width of each column, adjust as needed */
+        }
+        .column img {
+            margin-right: 10px; /* Space between the image and text */
+        }
+        .text {
+            width: 300px; /* Fixed width for the text block */
+            word-wrap: break-word; /* Ensures long words break to the next line if needed */
+        }
+
+
+.gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px; /* Space between images */
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px; /* Optional: Adds rounded corners to the images */
+        }
+
+
+  .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+            border: 1px solid #ddd; /* Light gray border */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        }
+
+      .menu li {
+            flex: 1; /* Equal width for each menu item */
+        }
+
+        .menu li a {
+            display: block;
+            color: black; /* Set text color to black */
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border-right: 1px solid #ddd; /* Border between items */
+            transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+        }
+
+   .menu li:last-child a {
+            border-right: none; /* Remove border on the last item */
+        }
+
+        .menu li a:hover {
+            background-color: #f1f1f1; /* Light gray background on hover */
+        }
+
+        /* Shadow effect for the current page */
+        .menu .active a {
+            background-color: #e0e0e0; /* Slightly darker background for active item */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow for active item */
+            border-radius: 8px; /* Ensure border-radius is consistent with the menu */
+        }
+
+
+
