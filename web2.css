@@ -330,3 +330,79 @@ border-collapse: separate;
 border-spacing: 0 0em;
 }
 
+
+.columns-container {
+            display: flex;
+            justify-content: space-between; /* Space out the columns */
+        }
+        .column {
+            display: flex;
+            align-items: flex-start; /* Aligns the top of the image and text */
+            width: 48%; /* Width of each column, adjust as needed */
+        }
+        .column img {
+            margin-right: 10px; /* Space between the image and text */
+        }
+        .text {
+            width: 300px; /* Fixed width for the text block */
+            word-wrap: break-word; /* Ensures long words break to the next line if needed */
+        }
+
+
+.gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px; /* Space between images */
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px; /* Optional: Adds rounded corners to the images */
+        }
+
+
+  .menu {
+            list-style-type: none;
+/*            margin: 0;*/
+            margin-left: 0px;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+            border: 1px solid #ddd; /* Light gray border */
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        }
+
+      .menu li {
+            flex: 1; /* Equal width for each menu item */
+        }
+
+        .menu li a {
+            display: block;
+            color: black; /* Set text color to black */
+            margin-left: 0px;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border-right: 1px solid #ddd; /* Border between items */
+            transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+        }
+
+   .menu li:last-child a {
+            border-right: none; /* Remove border on the last item */
+        }
+
+        .menu li a:hover {
+            background-color: #f1f1f1; /* Light gray background on hover */
+        }
+
+        /* Shadow effect for the current page */
+        .menu .active a {
+            background-color: #e0e0e0; /* Slightly darker background for active item */
+            box-shadow: 0 4x 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow for active item */
+            border-radius: 8px; /* Ensure border-radius is consistent with the menu */
+        }
+
+
+
