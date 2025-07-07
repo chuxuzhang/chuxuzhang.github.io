@@ -229,13 +229,13 @@ div.left {
 }
 
 div.mybiggerblock {
-    width: 950px;
+    width: 850px;
     overflow: hidden;
     margin-left:0px;
-    padding-left:50px;
-    padding-right:50px;
-    padding-bottom:50px;
-    padding-top:20px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+    padding-top:30px;
     margin-bottom:0px;
     margin-top:25px;
     background-color:#ffffff;
@@ -282,7 +282,7 @@ div.footer {
 
 div.headleft {
     float: left;
-    width: 400px;
+    width: 365px;
 /*    font: 14px "BentonSansRegular";*/
          font: 14px Arial, sans-serif;
     font-weight: bold;
